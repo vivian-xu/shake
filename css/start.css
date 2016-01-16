@@ -1,0 +1,71 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 16px;
+}
+body {
+    background: #ff0000 url(../images/bg2.jpg) no-repeat fixed top left;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: liulitaihangshu;
+    font-size: 4rem;
+    color: #ffff00;
+    margin: 1rem auto; 
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.left-box, .right-box {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 500px;
+    min-height: 400px;
+    max-height: 500px;
+    margin: 0 30px;
+}
+
+.weixin, .prize {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.info,.prize-info {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    color: #ffff00;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #333;
+    border: 1px solid #ff0000;
+    border-radius: 999px;
+    background: #F71717;
+}
+
+.btn:hover{
+    background: #ff0000;
+}
+
+.btn:active{
+    background: #F71703;
+    box-shadow:0 3px 0 #F71700;
+}
+.btn:focus {
+    outline: none;
+}
+
+
+

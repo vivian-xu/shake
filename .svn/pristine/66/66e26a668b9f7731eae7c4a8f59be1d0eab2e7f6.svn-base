@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #ff0000 url(../images/bg2.jpg) no-repeat fixed;
+    font-size: 25px;
+    background-size: cover;
+}
+
+.prize-title {
+    color: #FFFF00; 
+    font-family: liulitaihangshu;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/*  ID : box */
+#box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img.avatar {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+/* 三等奖时 ID : box 的 class 不设定*/
+.box-content-3 {
+}
+/* 二等奖时 ID : box 的 class  设定为 box-content-second */
+.box-content-2 {
+    width: 60%;
+}
+/* 一等奖时 ID : box 的 class  设定为 box-content-first */
+.box-content-1 {
+    width: 40%;    
+}
+
+#box .name {
+    font-size: 30px;
+    text-align: center;
+    margin: 2px;
+}
+
+/*  背面隐藏效果 */
+.flip-container {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    display: inline-block;
+    margin: 1%;
+}
+
+.flip-container:hover .flipper, .flip-container.flip .flipper{
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    transition: 2s;
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 5%;
+    background-color: #FFCCCC;
+}
+
+.flipper,.front,.back {
+    width: 205px;
+    height: 240px;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.front {
+    z-index: 999;
+}
+
+.back {
+    transform: rotateY(180deg);
+}

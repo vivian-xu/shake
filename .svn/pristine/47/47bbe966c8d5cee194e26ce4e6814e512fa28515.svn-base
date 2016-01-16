@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>恭喜您获奖！</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font/font-set.css">
+    <script charset="utf-8" src="js/main.js"></script>
+</head>
+
+<body>
+    <h1 class="prize-title">恭喜您摇中<span>三</span>等奖！！</h1>
+    <div id="box" class="box-content-3">
+
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img class="avatar" src="images/cheese.jpeg"/>
+                    <p class="name"> xxx </p>
+                </div>
+                <div class="back">
+                    <img class="avatar" src="images/default-m.png"/>
+                    <p class="name"> vivian </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img class="avatar" src="images/cheese.jpeg"/>
+                    <p class="name"> xxx </p>
+                </div>
+                <div class="back">
+                    <img class="avatar" src="images/default-m.png"/>
+                    <p class="name"> xxx </p>
+                </div>
+            </div>
+        </div>    
+
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img class="avatar" src="images/cheese.jpeg"/>
+                    <p class="name"> xxx </p>
+                </div>
+                <div class="back">
+                    <img class="avatar" src="images/default-m.png"/>
+                    <p class="name"> xxx </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img class="avatar" src="images/cheese.jpeg"/>
+                    <p class="name"> xxx </p>
+                </div>
+                <div class="back">
+                    <img class="avatar" src="images/default-m.png"/>
+                    <p class="name"> xxx </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <img class="avatar" src="images/cheese.jpeg"/>
+                    <p class="name"> xxx </p>
+                </div>
+                <div class="back">
+                    <img class="avatar" src="images/default-m.png"/>
+                    <p class="name"> xxx </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info turn-animation" style="display:none;">
+            <img class="avatar" src="images/default-wm.png"/>
+            <p class="name"> xxx </p>
+        </div>
+    </div>
+        
+</body>
+</html>
